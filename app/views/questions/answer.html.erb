@@ -1,12 +1,12 @@
 
-<div style="background-color:powderblue;">
+<div class="you">
 <p><%= params[:question] %></p>
 <p>-You</p>
 </div>
 
-<div style="background-color:red;">
+<div class="coach">
 <p><%= @answer %></p>
 <p>-Your Couch</p>
 </div>
 
-<%= link_to "Back to questions", ask_path %>
+<button class="btn"> <%= link_to "Back to questions", ask_path %> </button>
